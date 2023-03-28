@@ -1,0 +1,311 @@
+@charset "UTF-8";
+/* line 1, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+nav {
+  height: 53px;
+  background-color: #212121; }
+
+/* line 4, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+.header {
+  position: relative; }
+
+/* line 6, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 70px;
+  margin: 0;
+  list-style-type: none; }
+  /* line 12, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .menu .menu_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF; }
+  /* line 18, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 32px; }
+
+/* line 21, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6); }
+  /* line 26, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px; }
+  /* line 30, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .subheader .subheader_official {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF; }
+  /* line 36, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .subheader .subheader_call {
+    margin-top: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right; }
+  /* line 44, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .subheader .subheader_number {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: right; }
+  /* line 52, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .subheader .subheader_btn {
+    margin-top: 19px;
+    width: 180px;
+    height: 45px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF; }
+
+/* line 65, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+.promo {
+  min-height: 800px;
+  background: url(../img/uber_bg.jpg) center center/cover no-repeat;
+  padding: 150px 0 135px 0; }
+  /* line 69, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .promo .promo_header {
+    margin: 68px auto 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    color: #FFFFFF; }
+  /* line 76, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .promo .promo_subheader {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center; }
+  /* line 83, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .promo .promo_text {
+    margin-top: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.9794px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center; }
+  /* line 92, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .promo .promo_btn {
+    display: block;
+    margin: 114px auto 0 auto;
+    width: 250px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3.99543px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF; }
+
+/* line 106, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+.reason {
+  padding: 77px 0 66px 0; }
+  /* line 108, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .reason .reason_subheader {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    color: #222222;
+    text-align: center; }
+  /* line 115, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .reason .reason_block {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    /* line 119, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .reason .reason_block .reason_round {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 116px;
+      height: 116px;
+      background-color: #1EACC7;
+      border-radius: 100%; }
+    /* line 127, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .reason .reason_block .reason_descr {
+      width: 340px;
+      padding-left: 24px; }
+    /* line 130, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .reason .reason_block .reason_title {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 21px;
+      color: #1EACC7; }
+    /* line 137, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .reason .reason_block .reason_text {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16.9806px;
+      line-height: 21px;
+      color: #202020; }
+
+/* line 146, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+.mobile {
+  min-height: 863px;
+  padding: 45px 0 79px 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat; }
+  /* line 150, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .mobile .mobile_header {
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 38px;
+    font-weight: 700;
+    text-align: center; }
+  /* line 156, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .mobile .mobile_subheader {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center; }
+  /* line 162, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .mobile .row {
+    margin-top: 32px; }
+  /* line 164, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .mobile_block {
+    position: relative;
+    width: 320px;
+    height: 280px;
+    margin-bottom: 19px; }
+    /* line 169, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .mobile_block_1 {
+      background: url("../img/card1.jpg") center center/cover no-repeat; }
+    /* line 171, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .mobile_block_2 {
+      background: url("../img/card2.jpg") center center/cover no-repeat; }
+    /* line 173, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .mobile_block_3 {
+      background: url("../img/card3.jpg") center center/cover no-repeat; }
+    /* line 175, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .mobile_block_4 {
+      background: url("../img/card4.jpg") center center/cover no-repeat; }
+    /* line 177, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .mobile_block_5 {
+      background: url("../img/card5.jpg") center center/cover no-repeat; }
+    /* line 179, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+    .mobile_block_6 {
+      background: url("../img/card6.jpg") center center/cover no-repeat; }
+  /* line 181, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .mobile_descr {
+    padding-top: 82px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center; }
+  /* line 189, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .mobile_plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 29px;
+    height: 29px;
+    border-radius: 100%;
+    background-color: #000000;
+    margin: 0 auto;
+    cursor: pointer; }
+
+/* line 206, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+.car {
+  position: relative;
+  min-height: 897px;
+  padding: 58px 0 137px 0;
+  background: url("../img/mobile_bg.png") center center/cover no-repeat; }
+  /* line 211, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .car_label {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 115px;
+    height: 27px;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #070716;
+    text-align: center;
+    z-index: 2; }
+  /* line 226, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .car_header {
+    position: relative;
+    padding-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2; }
+  /* line 236, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .car_subheader {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 2; }
+  /* line 245, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .car_img {
+    position: relative;
+    display: block;
+    margin: 54px auto 0 auto;
+    z-index: 2; }
+  /* line 250, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .car_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center; }
+  /* line 256, ../../../Desktop/она пытается стать фронтендом/homework_uber/sass/style.sass */
+  .car .dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1918px;
+    height: 501px;
+    background-color: #070716;
+    z-index: 1; }
+
+/*# sourceMappingURL=style.css.map */
